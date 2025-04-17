@@ -20,7 +20,7 @@ const Navbar = () => {
                     <img
                         src={assets.CareerConnect}
                         alt="CareerConnect Logo"
-                        className="w-70 h-70 sm:w-66 sm:h-30"
+                        className="w-90 h-90 sm:w-86 sm:h-40"
                     />
                 </div>
 
