@@ -12,7 +12,6 @@ const Navbar = () => {
     const navigate = useNavigate()
 
     const { setShowRecruiterLogin } = useContext(AppContext)
-
     return (
         <div className="shadow py-4">
             <div className="container px-4 2xl:px-20 mx-auto flex justify-between items-center">
@@ -21,13 +20,13 @@ const Navbar = () => {
                     <img
                         src={assets.CareerConnect}
                         alt="CareerConnect Logo"
-                        className="w-30 h-20 sm:w-15 sm:h-15"
+                        className="w-14 h-14 sm:w-16 sm:h-16"
                     />
-                    <h1 className="text-xl sm:text-2xl font-bold text-blue-700 ml-2">
-                        
+                    <h1 className="text-2xl sm:text-3xl font-bold text-blue-700 ml-3">
+                        CareerConnect
                     </h1>
                 </div>
-    
+
                 {/* Conditional rendering for user login state */}
                 {user ? (
                     <div className="flex items-center gap-3">
@@ -55,6 +54,6 @@ const Navbar = () => {
             </div>
         </div>
     );
-}    
+};  
 
 export default Navbar
