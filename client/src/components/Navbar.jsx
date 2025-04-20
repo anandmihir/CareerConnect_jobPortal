@@ -21,6 +21,7 @@ const Navbar = () => {
                         alt="CareerConnect Logo"
                         className="w-60 h-60 sm:w-66 sm:h-20"
                     />
+                    <h1>mihir</h1>
                 </div>
 
                 {/* Conditional rendering for user login state */}
